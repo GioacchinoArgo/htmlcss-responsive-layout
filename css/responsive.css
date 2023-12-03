@@ -1,0 +1,161 @@
+/* sopra i 768px */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .container-title {
+        padding-left: 20px;
+        text-align: start;
+    }
+
+    .info {
+        height: 250px;
+    }
+
+    .container-upper-info {
+        max-width: 650px;
+    }
+
+    .container-bottom-info {
+        margin-top: 30px;
+    }
+
+    .hr-card {
+        width: 630px;
+    }
+
+    h1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    .d-none {
+        display: contents; 
+    }
+
+    .fa-star {
+        color: #FF9614;
+        font-size: 1rem;
+        margin-left: 0;
+    }
+
+    .btn {
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+
+    .p-large {
+        font-size: 1rem;
+    }
+    
+    .bold {
+        font-weight: 700;
+    }
+
+    .bottom-info {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col-bottom-info {
+        flex-basis: calc(100% / 3 - 30px / 3);
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    iframe {
+        width: 700px;
+        height: 400px;
+    }
+
+}
+
+
+/* sopra i 992px */
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .recipe header {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        margin-bottom: 20px;
+        gap: 300px;
+    }
+
+    .recipe-card {
+        flex-direction: row;
+        height: 400px;
+        width: 945px;
+    }
+
+    .bottom-info {
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-upper-info {
+        margin-left: 30px;
+        max-width: 200px;
+        height: 90px;
+    }
+
+    .badge {
+        font-size: 10px;
+        padding: 4px 2px;
+    }
+
+    .hr-card {
+        width: 170px;
+    }
+
+    .fa-carrot {
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+    }
+
+    h6 {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .container-bottom-info {
+        margin-top: 15px;
+        margin-left: 30px;
+        max-width: 100%;
+    }
+
+    .p-small {
+        font-size: 10px;
+    }
+
+
+}
