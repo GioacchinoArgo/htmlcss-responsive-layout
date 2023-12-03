@@ -7,7 +7,7 @@
 
 body {
     background-color: #F6F5F3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 
@@ -41,6 +41,13 @@ body {
     margin-left: 5px;
     font-size: 14px;
 }
+
+i {
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+}
+
 /* Spacing */
 
 .bt-50 {
@@ -158,6 +165,7 @@ ul {
     margin-top: 20px;
 }
 
+/* Recipe info */
 .container-upper-info {
     margin: 0 auto;
     max-width: 400px;
@@ -224,4 +232,51 @@ ul {
 
 .i-orange {
     color: #F7972E;
+}
+
+/* Social */
+
+    .container-social {
+        margin: 0 auto;
+        max-width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+.btn-socials {
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 14px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 3px 8px lightgray;
+}
+
+.blue-f {
+    color: #1A77F3;
+}
+
+.azure-t {
+    color: #009EFF;
+}
+
+.pink-i {
+    color: #DC75BE;
+}
+
+.red-p {
+    color: #E62225;
+}
+
+.red-y {
+    color: #E62222;
+}
+
+.h7-none {
+    display: none;
 }
