@@ -280,3 +280,15 @@ ul {
 .h7-none {
     display: none;
 }
+
+/* Banner */
+
+.banner-size {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 65px;
+}
+
+#img-hidden {
+    display: none;
+}

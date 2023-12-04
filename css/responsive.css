@@ -95,6 +95,9 @@
         margin-bottom: 20px;
     }
     
+    #img-hidden {
+        display: contents;
+    }
 }
 
 
@@ -173,7 +176,7 @@
         max-width: 940px;
         margin-right: 18px;
     }
-    
+
     .h7-none {
         color: #000;
         display: contents;
@@ -188,5 +191,9 @@
         margin: 0;
         box-shadow: 0 3px 8px lightgray;
         margin-bottom: 20px;
+    }
+
+    .banner-size {
+        height: 88px;
     }
 }
