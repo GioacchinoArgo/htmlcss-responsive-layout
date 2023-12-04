@@ -58,6 +58,10 @@ i {
     margin-top: 50px;
 }
 
+.l-i {
+    line-height: 25px;
+}
+
 /* Layout */ 
 h1 {
     font-family: 'Nerko One', cursive;
@@ -292,3 +296,31 @@ ul {
 #img-hidden {
     display: none;
 }
+
+/* Presentation */
+
+.presentation {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hr-presentation {
+    display: flex;
+    width: 70px;
+    border-top: 2px solid #F7972E;
+    margin-bottom: 10px;
+}
+
+.img-tiramisù {
+    height: 200px;
+    margin-left: 16%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 8px lightgray;
+}
+
+

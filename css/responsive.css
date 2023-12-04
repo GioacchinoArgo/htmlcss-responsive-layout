@@ -98,6 +98,16 @@
     #img-hidden {
         display: contents;
     }
+
+    .img-tiramisù {
+        margin-right: 10px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .float-left {
+        float: left;
+    }
 }
 
 
